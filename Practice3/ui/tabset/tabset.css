@@ -1,0 +1,44 @@
+.tabset {
+	width: 600px;
+}
+.tab-content {
+	padding: 15px;
+	border: 1px solid #D2D2D2;
+	min-height: 400px;
+	display: none;
+	transition: all .1s linear;
+}
+.tab-content p {
+	line-height: 1.4;
+}
+
+.tab-content.active {
+	display: block;
+	transition: all .1s linear;
+
+}
+
+.btn-nav-tab {
+	display: inline-block;
+	padding: 20px;
+	color: #fff;	
+	cursor: pointer;
+	border: 0;
+	font-size: 16px;
+	padding: 10px 20px;
+	background: #fff;
+	transition: all .1s linear;
+	background-image: linear-gradient(to right, #383f48, #191b1a);
+
+}
+.btn-nav-tab:focus {
+	outline: none;
+}
+.btn-nav-tab.active {
+    background-image: linear-gradient(to right, #015AD1, #1748BC);
+    color: #fff;
+ }
+
+
+
+  
