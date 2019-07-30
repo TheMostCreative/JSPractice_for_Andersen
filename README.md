@@ -10,6 +10,8 @@ Repository for made practice
 
 * Practice3 contains slider, tabset, dropdown and popup menu using css and .js 
 
+* Practice4 contains work with JSON and AJAX 
+
 
 # Link to Heroku app
  https://andersenjs-hw-dk.herokuapp.com
