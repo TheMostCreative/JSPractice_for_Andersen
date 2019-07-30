@@ -1,0 +1,47 @@
+* {
+    list-style: none;
+
+}
+
+.home {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    color: #000;
+    text-decoration: none;
+}
+
+#content {
+
+    display: flex;
+
+}
+
+.leftColumn {
+    width: 40%;
+    height: 1200px;
+}
+
+.rightColumn {
+    width: 60%;
+    height: 800px;
+}
+
+
+.rightColumn textarea {
+    height: 1200px;
+    width: 100%
+}
+
+.request,
+.request li {
+    padding: 5px;
+}
+
+span {
+    font-size: 10px;
+}
+
+form {
+    display: inline;
+}

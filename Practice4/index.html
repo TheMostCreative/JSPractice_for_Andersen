@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Practice 4</title>
+</head>
+
+<body>
+
+  <div id="content">
+    <div class="leftColumn">
+          <input type="text" id="idInput" placeholder="ID">
+          <input type="text" id="tokenInput" placeholder="token">
+          <ul>
+        <li class="request">
+          <h2>Auth</h2>
+          <ul>
+            <li><button id="getUsers">Get users</button></li>
+            <li>
+              <input type="email" id="regEmail" placeholder="e-mail">
+              <button id="regUser">Register </button>
+            </li>
+            <li>
+              <button id="activateUser">Activate</button>
+            </li>
+            <li>
+              <input type="email" id="loginEmail" placeholder="e-mail">
+              <input type="password" id="loginPassword" placeholder="password">
+              <button id="loginUser">Login</button>
+            </li>
+          </ul>
+        </li>
+
+        <li class="request">
+          <h2>Comments</h2>
+          <ul>
+            <li>
+              <input type="text" id="getCommentId" placeholder="parent id">
+              <button id="getComments">Get comment</button>
+              <span>* leave input blank to get all comments</span>
+            </li>
+            <li>
+              <input type="text" id="sendCommentParentId" placeholder="parentId">
+              <input type="text" id="sendCommentMessage" placeholder="your message">
+              <button id="sendComment">Add comment</button>
+            </li>
+            <li>
+              <input type="text" id="updateCommentId" placeholder="comment id">
+              <input type="text" id="updateCommentParentId" placeholder="parent id">
+              <input type="text" id="updateCommentMessage" placeholder="new message">
+              <button id="updateComment">Update comment</button>
+            </li>
+            <li>
+              <input type="text" id="deleteCommentId" placeholder="comment id">
+              <button id="deleteComment">Delete comment</button>
+            </li>
+          </ul>
+        </li>
+
+        <li class="request">
+          <h2>Files</h2>
+          <ul>
+            <li>
+              <input type="text" id="sendFileParentEntityId" placeholder="parent entity id">
+              <form action="" id="sendFile">
+                <input type="file" name="file">
+                <input type="submit" value="submit">
+              </form>
+            </li>
+            <li>
+              <input type="text" id="getFilesParentEntityId" placeholder="parent entity id">
+              <button id="getFiles">Get files</button>
+              <span>* leave input blank to get all files</span>
+            </li>
+            <li>
+              <input type="text" id="updateFileId" placeholder="file id">
+              <input type="text" id="updateFileParentEntityId" placeholder="parent entity id">
+              <form action="" id="updateFile">
+                <input type="file" name="file">
+                <input type="submit" value="update">
+              </form>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="rightColumn">
+
+      <textarea class="rightColumn"></textarea>
+    </div>
+
+  </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
